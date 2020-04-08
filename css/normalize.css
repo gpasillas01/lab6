@@ -1,4 +1,4 @@
-*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 /**
  * 1. Set default font family to sans-serif.
@@ -9,8 +9,7 @@
 html {
   font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
-  -webkit-text-size-adjust: 100%; /* 2 */
-}
+  -webkit-text-size-adjust: 100%; /* 2 */}
 
 /**
  * Remove default margin.
@@ -286,13 +285,6 @@ select {
  *    `input` and others.
  */
 
-button,
-html input[type="button"], /* 1 */
-input[type="reset"],
-input[type="submit"] {
-  -webkit-appearance: button; /* 2 */
-  
-}
 
 /**
  * Re-set default cursor for disabled elements.
