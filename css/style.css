@@ -29,5 +29,6 @@
 	text-decoration: overline;
   	display: block;
 	right: 50%
-
+	float: left;
+   	list-style-type:none;
 }
