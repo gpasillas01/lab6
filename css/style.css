@@ -1,34 +1,65 @@
-/*. #main-navbar = <nav id="main-navbar">*/
-
-#main-navbar {
-  overflow: hidden;
-  background-color:blue;
-  width:100%
-}
-
-#main-navbar a {
-  left:50%
-  float:left;
+/*side bar*/
+#onpage{
   color: #fff;
-   position: relative;
-  padding: 10px 20px;
+  text-decoration: underline overline;
+  background-color: #000;
+}
+#sidebar-container ul li a{
   text-decoration: none;
+  color: #000;
+}
+#sidebar{
+  position: fixed;
+  right: 0%;
+  background-color: red;
+  height: 100%;
+  width: 20%;
 }
 
-#main-navbar a:hover {
-  background-color: #000000;
-  color: #fff;
+#sidebar-container ul li{
+  padding: 15px 0;
+}
+#sidebar-container{
+  text-align: center;
+  display: block;
+}
+#sidebar-container ul{
+  list-style-type: none;
+  padding: 0;
 }
 
-#main-navbar a.active {
-  background-color: #0000ff;
-  color: #fff;
+
+/*. #main-navbar = <nav id="main-navbar">*/
+#navbar-container ul li a {
+  color: #000;
+  text-decoration: none;
+  
 }
-#nav-contianer ul li{
-  	color: #fff;
-	text-decoration: overline;
-  	display: block;
-	right: 50%
-	float:left;
-   	list-style-type:none;
+#main-navbar{
+  background-color: blue;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
 }
+#navbar-container{
+   display: block;
+  float: left;
+  position: relative;
+  left: 50%; 
+}
+#navbar-container ul {
+  margin: 0;
+  padding: 0;
+  right: 50%;
+  float: left;
+  position: relative;
+  list-style-type: none;	
+  display: block;
+}
+#navbar-container ul li {
+  float: left;
+  padding: 10px 20px;
+}
+
+
+
