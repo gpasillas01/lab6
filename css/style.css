@@ -3,9 +3,11 @@
 #main-navbar {
   overflow: hidden;
   background-color:blue;
+  width:100%
 }
 
 #main-navbar a {
+  left:50%
   float: left;
   color: #fff;
    position: relative;
@@ -21,4 +23,9 @@
 #main-navbar a.active {
   background-color: #0000ff;
   color: #fff;
+}
+#nav-contianer ul li{
+  color: #fff;
+	text-decoration: overline;
+  display: block;
 }
