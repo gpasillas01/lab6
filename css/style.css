@@ -25,7 +25,9 @@
   color: #fff;
 }
 #nav-contianer ul li{
-  color: #fff;
+  	color: #fff;
 	text-decoration: overline;
-  display: block;
+  	display: block;
+	right: 50%
+
 }
