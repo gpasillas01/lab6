@@ -8,7 +8,7 @@
 
 #main-navbar a {
   left:50%
-  float: left;
+  float:left;
   color: #fff;
    position: relative;
   padding: 10px 20px;
@@ -29,6 +29,6 @@
 	text-decoration: overline;
   	display: block;
 	right: 50%
-	float: left;
+	float:left;
    	list-style-type:none;
 }
